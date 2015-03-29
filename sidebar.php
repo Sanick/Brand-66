@@ -20,39 +20,43 @@
             <a href="#" class="twitter">twitter</a>
         </form>
         <nav class="sidebar-nav">
-            <p>Recent</p>
-            <ul class="nav-list">
-                <li><a href="#">Wooden performance</a></li>
-                <li><a href="#">Jack Crossing</a></li>
-                <li><a href="#">The world’s hippest sculptures</a></li>
-                <li><a href="#">Pint-sized food trucks</a></li>
-                <li><a href="#">HUSH The Series</a></li>
-                <li><a href="#">Packaging in quarter notes</a></li>
-                <li><a href="#">The other Facetime</a></li>
-                <li><a href="#">Toronto Film Festival poster</a></li>
-                <li><a href="#">Water</a></li>
-                <li><a href="#">Just a Pinch</a></li>
-                <li><a href="#">Neon leaves the pool hall</a></li>
-                <li><a href="#">A novel vase</a></li>
-                <li><a href="#">MRI goes organic</a></li>
-                <li><a href="#">Big Data walks the red carpet</a></li>
-                <li><a href="#">Chromatic Typewriter</a></li>
-                <li><a href="#">Tattoo illusion</a></li>
-                <li><a href="#">Nike window display madness</a></li>
-                <li><a href="#">3 Ways Apple Innovates</a></li>
-                <li><a href="#">H2 oh my</a></li>
-                <li><a href="#">More GIF fun</a></li>
-                <li><a href="#">Pentagram’s romantic side</a></li>
-                <li><a href="#">Skullboard</a></li>
-                <li><a href="#">Gummy luminescence</a></li>
-                <li><a href="#">Minimalist castles</a></li>
-                <li><a href="#">Rocking Knit</a></li>
-                <li><a href="#">Reinventing a not-so-fab logo</a></li>
-                <li><a href="#">Green Automobiles</a></li>
-                <li><a href="#">Moonrise GIF</a></li>
-                <li><a href="#">Electronic shoes</a></li>
-                <li><a href="#">007</a></li>
-            </ul>
+            <div class="nav-list">
+                <?php if(!dynamic_sidebar('sidebar')): ?>
+                    <h2>Hello</h2>
+                <?php endif?>
+                <!-- <ul>
+                    <li><a href="#">Wooden performance</a></li>
+                    <li><a href="#">Jack Crossing</a></li>
+                    <li><a href="#">The world’s hippest sculptures</a></li>
+                    <li><a href="#">Pint-sized food trucks</a></li>
+                    <li><a href="#">HUSH The Series</a></li>
+                    <li><a href="#">Packaging in quarter notes</a></li>
+                    <li><a href="#">The other Facetime</a></li>
+                    <li><a href="#">Toronto Film Festival poster</a></li>
+                    <li><a href="#">Water</a></li>
+                    <li><a href="#">Just a Pinch</a></li>
+                    <li><a href="#">Neon leaves the pool hall</a></li>
+                    <li><a href="#">A novel vase</a></li>
+                    <li><a href="#">MRI goes organic</a></li>
+                    <li><a href="#">Big Data walks the red carpet</a></li>
+                    <li><a href="#">Chromatic Typewriter</a></li>
+                    <li><a href="#">Tattoo illusion</a></li>
+                    <li><a href="#">Nike window display madness</a></li>
+                    <li><a href="#">3 Ways Apple Innovates</a></li>
+                    <li><a href="#">H2 oh my</a></li>
+                    <li><a href="#">More GIF fun</a></li>
+                    <li><a href="#">Pentagram’s romantic side</a></li>
+                    <li><a href="#">Skullboard</a></li>
+                    <li><a href="#">Gummy luminescence</a></li>
+                    <li><a href="#">Minimalist castles</a></li>
+                    <li><a href="#">Rocking Knit</a></li>
+                    <li><a href="#">Reinventing a not-so-fab logo</a></li>
+                    <li><a href="#">Green Automobiles</a></li>
+                    <li><a href="#">Moonrise GIF</a></li>
+                    <li><a href="#">Electronic shoes</a></li>
+                    <li><a href="#">007</a></li>
+                </ul> -->
+            </div>
         </nav>
         <form action="#" method="post" class="search-blog">
             <p>Search</p>
